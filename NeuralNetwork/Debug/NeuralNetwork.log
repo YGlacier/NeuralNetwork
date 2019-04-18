@@ -1,6 +1,6 @@
-﻿  Layer.cpp
-  NeuralNetwork.cpp
-c:\users\yglac\source\repos\neuralnetwork\neuralnetwork\neuralnetwork.cpp(19): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-  V.cpp
-  コードを生成中...
+﻿  V.cpp
+c:\users\yglac\source\repos\neuralnetwork\neuralnetwork\v.cpp(38): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\yglac\source\repos\neuralnetwork\neuralnetwork\v.cpp(47): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\yglac\source\repos\neuralnetwork\neuralnetwork\v.cpp(55): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\yglac\source\repos\neuralnetwork\neuralnetwork\v.cpp(87): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
   NeuralNetwork.vcxproj -> C:\Users\yglac\source\repos\NeuralNetwork\Debug\NeuralNetwork.exe

@@ -4,21 +4,34 @@
 #include "pch.h"
 #include "Layer.h"
 #include "V.h"
+#include "M.h"
+
 #include <iostream>
 #include <string>
 #include <vector>
 
 int main()
 {
-	std::vector<float> vec({ 0,1,2,3,4 });
+	std::vector<float> vec1({ 1,1,1});
+	std::vector<float> vec2({ 0,1,1});
+	std::vector<float> vec3({ 0,0,1});
 
-	V v1(vec);
-	V v2;
+	V v1(vec1);
+	V v2(vec2);
+	V v3(vec3);
 
-	v2 = v1;
-	for (int i = 0; i < v2.m_vector.size(); i++) {
-		std::cout << v2.m_vector[i] << std::endl;
-	}
+	std::vector<V> m;
+	m.push_back(v1);
+	m.push_back(v2);
+	m.push_back(v3);
+
+	M matrix1(m);
+	M matrix2(3, 4, 1.0);
+	M matrix3(3, 1, 1.0);
+	M matrix4(1, 3, 1.0);
+
+	std::cout << matrix4 * matrix3;
+	
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー

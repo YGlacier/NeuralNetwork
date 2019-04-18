@@ -152,11 +152,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Layer.h" />
+    <ClInclude Include="M.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="V.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="M.cpp" />
     <ClCompile Include="NeuralNetwork.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
